@@ -1,0 +1,84 @@
+<svg width="600" height="800" viewBox="0 0 600 800" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="600" height="800" fill="#f8f8f8"/>
+  
+  <!-- Face outline -->
+  <ellipse cx="300" cy="380" rx="120" ry="150" fill="#f4c2a1" stroke="#e6a87c" stroke-width="2"/>
+  
+  <!-- Eyes -->
+  <ellipse cx="270" cy="350" rx="15" ry="20" fill="white"/>
+  <ellipse cx="330" cy="350" rx="15" ry="20" fill="white"/>
+  <circle cx="270" cy="350" r="8" fill="#2c3e50"/>
+  <circle cx="330" cy="350" r="8" fill="#2c3e50"/>
+  <circle cx="273" cy="347" r="3" fill="white"/>
+  <circle cx="333" cy="347" r="3" fill="white"/>
+  
+  <!-- Eyebrows -->
+  <path d="M250 330 Q270 325 290 330" stroke="#8b4513" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M310 330 Q330 325 350 330" stroke="#8b4513" stroke-width="3" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M300 365 Q295 380 300 390 Q305 380 300 365" stroke="#e6a87c" stroke-width="2" fill="none"/>
+  <ellipse cx="295" cy="385" rx="2" ry="3" fill="#d4946d"/>
+  <ellipse cx="305" cy="385" rx="2" ry="3" fill="#d4946d"/>
+  
+  <!-- Mouth -->
+  <path d="M280 420 Q300 435 320 420" stroke="#c0392b" stroke-width="3" fill="none" stroke-linecap="round"/>
+  <path d="M280 420 Q300 425 320 420" stroke="#e74c3c" stroke-width="2" fill="none" stroke-linecap="round"/>
+  
+  <!-- Neck -->
+  <rect x="270" y="520" width="60" height="80" fill="#f4c2a1" stroke="#e6a87c" stroke-width="2"/>
+  
+  <!-- Shoulders -->
+  <ellipse cx="300" cy="650" rx="100" ry="50" fill="#3498db" stroke="#2980b9" stroke-width="3"/>
+  
+  <!-- Scribble Hair (this is what gets revealed) -->
+  <!-- Top hair -->
+  <g stroke="#2c3e50" stroke-width="2" fill="none" stroke-linecap="round">
+    <!-- Messy, scribbled hair strokes -->
+    <path d="M180 280 Q200 250 220 260 Q240 240 260 250 Q280 230 300 240 Q320 220 340 230 Q360 210 380 220 Q400 200 420 210"/>
+    <path d="M190 300 Q210 270 230 280 Q250 260 270 270 Q290 250 310 260 Q330 240 350 250 Q370 230 390 240"/>
+    <path d="M200 320 Q220 290 240 300 Q260 280 280 290 Q300 270 320 280 Q340 260 360 270"/>
+    <path d="M170 320 Q190 290 210 300 Q230 280 250 290 Q270 270 290 280"/>
+    <path d="M350 320 Q370 290 390 300 Q410 280 430 290"/>
+    
+    <!-- Left side hair -->
+    <path d="M180 350 Q160 330 150 350 Q140 370 160 380 Q180 390 170 410 Q160 430 180 440"/>
+    <path d="M190 380 Q170 360 160 380 Q150 400 170 410 Q190 420 180 440 Q170 460 190 470"/>
+    <path d="M200 410 Q180 390 170 410 Q160 430 180 440 Q200 450 190 470 Q180 490 200 500"/>
+    
+    <!-- Right side hair -->
+    <path d="M420 350 Q440 330 450 350 Q460 370 440 380 Q420 390 430 410 Q440 430 420 440"/>
+    <path d="M410 380 Q430 360 440 380 Q450 400 430 410 Q410 420 420 440 Q430 460 410 470"/>
+    <path d="M400 410 Q420 390 430 410 Q440 430 420 440 Q400 450 410 470 Q420 490 400 500"/>
+    
+    <!-- More scribbled layers -->
+    <path d="M200 270 Q180 250 170 270 Q160 290 180 300 Q200 310 190 330"/>
+    <path d="M400 270 Q420 250 430 270 Q440 290 420 300 Q400 310 410 330"/>
+    <path d="M300 220 Q280 200 270 220 Q260 240 280 250 Q300 260 290 280 Q310 260 320 280 Q330 240 320 220 Q340 200 330 220"/>
+    
+    <!-- Additional wild strokes -->
+    <path d="M250 240 Q230 220 210 240 Q190 260 210 280 Q230 300 220 320"/>
+    <path d="M350 240 Q370 220 390 240 Q410 260 390 280 Q370 300 380 320"/>
+    <path d="M300 200 Q320 180 340 200 Q360 220 340 240 Q320 260 300 240 Q280 220 260 240 Q280 180 300 200"/>
+    
+    <!-- Bangs area -->
+    <path d="M220 310 Q240 290 260 300 Q280 290 300 300 Q320 290 340 300 Q360 290 380 300"/>
+    <path d="M230 320 Q250 300 270 310 Q290 300 310 310 Q330 300 350 310 Q370 300 390 310"/>
+    
+    <!-- More messy texture -->
+    <path d="M180 260 Q200 240 220 250 Q240 230 260 240"/>
+    <path d="M340 240 Q360 230 380 240 Q400 250 420 260"/>
+    <path d="M190 290 Q210 270 230 280 Q250 270 270 280"/>
+    <path d="M330 280 Q350 270 370 280 Q390 290 410 300"/>
+  </g>
+  
+  <!-- Additional texture for more realistic scribbled look -->
+  <g stroke="#34495e" stroke-width="1" fill="none" stroke-linecap="round" opacity="0.7">
+    <path d="M185 275 Q195 265 205 275 Q215 285 225 275"/>
+    <path d="M375 275 Q385 265 395 275 Q405 285 415 275"/>
+    <path d="M285 235 Q295 225 305 235 Q315 245 325 235"/>
+    <path d="M175 335 Q185 325 195 335 Q205 345 215 335"/>
+    <path d="M385 335 Q395 325 405 335 Q415 345 425 335"/>
+  </g>
+</svg>

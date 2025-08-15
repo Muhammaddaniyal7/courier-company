@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Brush Reveal Animation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Instruction overlay -->
+        <div class="instruction-overlay" id="instructionOverlay">
+            <div class="instruction-text">
+                <span class="desktop-text">Move to reveal</span>
+                <span class="mobile-text">Touch to reveal</span>
+            </div>
+        </div>
+        
+        <!-- Main canvas and image container -->
+        <div class="image-container" id="imageContainer">
+            <!-- Background image (woman's face + hair) -->
+            <img src="woman-portrait.svg" alt="Woman portrait" class="base-image" id="baseImage">
+            
+            <!-- Canvas for brush reveal effect -->
+            <canvas id="brushCanvas" class="brush-canvas"></canvas>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
